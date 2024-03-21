@@ -16,13 +16,19 @@ We will be extending the previous [Creating a JSON](https://online.uprighted.com
 
 ## Procedures
 
+### Create a Server with Express
+
+- [ ] Install the project's dependencies using `npm install`
+- [ ] Start the server by running `index.js` using `npm run dev`.
+- [ ] Visit your running server at `http://localhost:3000` with a web browser.
+
 ## Creating the Front End
 
 Your front end should contain a form that asks the user for the following information: name, quest, and color.
 
-Every input will need an `change` event that saves the value of the user input.
+Every input will need a `change` event that saves the value of the user input.
 
-The form will need an `submit` that is detailed later on in the lab.
+The form will need a `submit` that is detailed later on in the lab.
 
 ## Using the API
 
