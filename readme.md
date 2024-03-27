@@ -8,7 +8,7 @@ We will be extending the previous [Creating a JSON](https://online.uprighted.com
 - Fetching from a local API.
 - Using fetched data to conditionally render information to the user.
 
-## Achieving 
+## Achieving
 
 - A server that creates a local API route by serving `answers.json`
 - A webpage with a form that asks the user for their name, quest, and color.
@@ -19,6 +19,7 @@ We will be extending the previous [Creating a JSON](https://online.uprighted.com
 ### Create a Server with Express
 
 - [ ] Install the project's dependencies using `npm install`
+- [ ] In order to handle requests from a webpage outside of the server, you'll need to setup CORS. Require `cors` into `index.js`; then register it as a middleware: `app.use(cors())`
 - [ ] Start the server by running `index.js` using `npm run dev`.
 - [ ] Visit your running server at `http://localhost:3000` with a web browser.
 
@@ -32,11 +33,11 @@ The form will need a `submit` that is detailed later on in the lab.
 
 ## Using the API
 
-You will need to use `fetch` to get the data from your local end point. 
+You will need to use `fetch` to get the data from your local end point.
 
 ## Setting up the submit handler
 
-When the user submits the form, we want to check their answers against the answers in the JSON. The JSON answers and the user answers should all be held in states.
+When the user submits the form, we want to check their answers against the answers in the JSON. The JSON answers and the user answers should all be held in different variables.
 
 IF all of their answers match the answers in the json, the text content of a div should change to inform the user they can continue on their way.
 
