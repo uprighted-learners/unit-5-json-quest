@@ -1,6 +1,6 @@
-# LAB: Extending JSON File to JSON Quest
+# exercise: Extending JSON File to JSON Quest
 
-We will be extending the previous [Creating a JSON](https://online.uprighted.com/lessons/written/creating-json) lab.
+We will be extending the previous [Creating a JSON](https://online.uprighted.com/lessons/written/creating-json) exercise.
 
 ## Learning
 
@@ -29,7 +29,7 @@ Your front end should contain a form that asks the user for the following inform
 
 Every input will need a `change` event that saves the value of the user input.
 
-The form will need a `submit` that is detailed later on in the lab.
+The form will need a `submit` that is detailed later on in the exercise.
 
 ## Using the API
 
